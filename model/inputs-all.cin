@@ -1,0 +1,268 @@
+agricultural material toxicity index = 1
+air pollution policy implementation time = 4000
+assimilation half life in 1970 = 1.5
+average life of agricultural inputs 1 = 2
+average life of agricultural inputs 2 = 2
+average life of industrial capital 1 = 14
+average life of industrial capital 2 = 14
+average life of land normal = 1000
+average life of service capital 1 = 20
+average life of service capital 2 = 20
+desired completed family size normal = 3.8
+desired food ratio = 2
+desired persistent pollution index = 1.2
+desired resource use rate = 4.8e+09
+fertility control effectiveness time = 4000
+FINAL TIME = 2100
+food shortage perception delay = 2
+fraction of agricultural inputs from persistent materials = 0.001
+fraction of industrial capital allocated to obtaining resources switch time = 4000
+fraction of industrial output allocated to consumption constant 1 = 0.43
+fraction of industrial output allocated to consumption constant 2 = 0.43
+fraction of resources from persistent materials = 0.02
+GDP pc unit = 1
+ha per Gha = 1e+09
+ha per unit of pollution = 4
+health services impact delay = 20
+income expectation averaging time = 3
+IND OUT IN 1970 = 7.9e+11
+industrial capital output ratio 1 = 3
+industrial equilibrium time = 4000
+industrial material emissions factor = 0.1
+industrial material toxicity index = 10
+industrial output per capita desired = 400
+inherent land fertility = 600
+initial arable land = 9e+08
+initial industrial capital = 2.1e+11
+initial land fertility = 600
+initial nonrenewable resources = 1e+12
+initial persistent pollution = 2.5e+07
+initial population 0 to 14 = 6.5e+08
+initial population 15 to 44 = 7e+08
+initial population 54 to 64 = 1.9e+08
+initial population 65 plus = 6e+07
+initial potentially arable land = 2.3e+09
+initial service capital = 1.44e+11
+INITIAL TIME = 1900
+initial urban and industrial land = 8.2e+06
+labor force participation fraction = 0.75
+labor utilization fraction delay time = 2
+land fraction harvested = 0.7
+land life policy implementation time = 4000
+land yield factor 1 = 1
+life expectancy normal = 28
+lifetime perception delay = 20
+maximum total fertility normal = 12
+one year = 1
+persistent pollution generation factor 1 = 1
+persistent pollution in 1970 = 1.36e+08
+persistent pollution transmission delay = 20
+POLICY YEAR = 1995
+population equilibrium time = 4000
+potentially arable land total = 3.2e+09
+PRICE OF FOOD = 0.22
+processing loss = 0.1
+Ref Hi GDP = 9508
+Ref Lo GDP = 24
+reproductive lifetime = 30
+resource use factor 1 = 1
+service capital output ratio 1 = 1
+service capital output ratio 2 = 1
+social adjustment delay = 20
+social discount = 0.07
+subsistence food per capita = 230
+technology development delay = 20
+THOUSAND = 1000
+TIME STEP = 0.5
+Total Land = 1.91
+unit agricultural input = 1
+unit population = 1
+urban and industrial land development time = 10
+zero population growth time = 4000
+assimilation half life mult table(
+(1,1),(251,11),(501,21),(751,31),
+(1001,41))
+capacity utilization fraction table(
+(1,1),(3,0.9),(5,0.7),(7,0.3),
+(9,0.1),(11,0.1))
+completed multiplier from perceived lifetime table(
+(0,3),(10,2.1),(20,1.6),(30,1.4),
+(40,1.3),(50,1.2),(60,1.1),(70,1.05),
+(80,1))
+crowding multiplier from industry table(
+(0,0.5),(200,0.05),(400,-0.1),(600,-0.08),
+(800,-0.02),(1000,0.05),(1200,0.1),(1400,0.15),
+(1600,0.2))
+development cost per hectare table(
+(0,100000),(0.1,7400),(0.2,5200),(0.3,3500),
+(0.4,2400),(0.5,1500),(0.6,750),(0.7,300),
+(0.8,150),(0.9,75),(1,50))
+Education Index LOOKUP(
+(0,0),(1000,0.81),(2000,0.88),(3000,0.92),
+(4000,0.95),(5000,0.98),(6000,0.99),(7000,1))
+family response to social norm table(
+(-0.2,0.5),(-0.1,0.6),(0,0.7),(0.1,0.85),
+(0.2,1))
+fecundity multiplier table(
+(0,0),(10,0.2),(20,0.4),(30,0.6),
+(40,0.7),(50,0.75),(60,0.79),(70,0.84),
+(80,0.87))
+fertility control effectiveness table(
+(0,0.75),(0.5,0.85),(1,0.9),(1.5,0.95),
+(2,0.98),(2.5,0.99),(3,1))
+fraction industrial output allocated to agriculture table 1(
+(0,0.4),(0.5,0.2),(1,0.1),(1.5,0.025),
+(2,0),(2.5,0))
+fraction industrial output allocated to agriculture table 2(
+(0,0.4),(0.5,0.2),(1,0.1),(1.5,0.025),
+(2,0),(2.5,0))
+fraction of agricultural inputs allocated to land development table(
+(0,0),(0.25,0.05),(0.5,0.15),(0.75,0.3),
+(1,0.5),(1.25,0.7),(1.5,0.85),(1.75,0.95),
+(2,1))
+fraction of agricultural inputs for land maintenance table(
+(0,0),(1,0.04),(2,0.07),(3,0.09),
+(4,0.1))
+fraction of capital allocated to obtaining resources 1 table(
+(0,1),(0.1,0.9),(0.2,0.7),(0.3,0.5),
+(0.4,0.2),(0.5,0.1),(0.6,0.05),(0.7,0.05),
+(0.8,0.05),(0.9,0.05),(1,0.05))
+fraction of capital allocated to obtaining resources 2 table(
+(0,1),(0.1,0.2),(0.2,0.1),(0.3,0.05),
+(0.4,0.05),(0.5,0.05),(0.6,0.05),(0.7,0.05),
+(0.8,0.05),(0.9,0.05),(1,0.05))
+fraction of industrial output allocated to consumption variable table(
+(0,0.3),(0.2,0.32),(0.4,0.34),(0.6,0.36),
+(0.8,0.38),(1,0.43),(1.2,0.73),(1.4,0.77),
+(1.6,0.81),(1.8,0.82),(2,0.83))
+fraction of industrial output allocated to services table 1(
+(0,0.3),(0.5,0.2),(1,0.1),(1.5,0.05),
+(2,0))
+fraction of industrial output allocated to services table 2(
+(0,0.3),(0.5,0.2),(1,0.1),(1.5,0.05),
+(2,0))
+fraction of population urban table(
+(0,0),(2e+09,0.2),(4e+09,0.4),(6e+09,0.5),
+(8e+09,0.58),(1e+10,0.65),(1.2e+10,0.72),(1.4e+10,0.78),
+(1.6e+10,0.8))
+fraction services allocated to fertility control table(
+(0,0),(2,0.005),(4,0.015),(6,0.025),
+(8,0.03),(10,0.035))
+GDP per capita LOOKUP(
+(0,120),(200,600),(400,1200),(600,1800),
+(800,2500),(1000,3200))
+health services per capita table(
+(0,0),(250,20),(500,50),(750,95),
+(1000,140),(1250,175),(1500,200),(1750,220),
+(2000,230))
+indicated food per capita table 1(
+(0,230),(200,480),(400,690),(600,850),
+(800,970),(1000,1070),(1200,1150),(1400,1210),
+(1600,1250))
+indicated food per capita table 2(
+(0,230),(200,480),(400,690),(600,850),
+(800,970),(1000,1070),(1200,1150),(1400,1210),
+(1600,1250))
+indicated services output per capita table 1(
+(0,40),(200,300),(400,640),(600,1000),
+(800,1220),(1000,1450),(1200,1650),(1400,1800),
+(1600,2000))
+indicated services output per capita table 2(
+(0,40),(200,300),(400,640),(600,1000),
+(800,1220),(1000,1450),(1200,1650),(1400,1800),
+(1600,2000))
+industrial capital output ratio multiplier from pollution table(
+(0,1.25),(0.1,1.2),(0.2,1.15),(0.3,1.11),
+(0.4,1.08),(0.5,1.05),(0.6,1.03),(0.7,1.02),
+(0.8,1.01),(0.9,1),(1,1))
+industrial capital output ratio multiplier from resource table(
+(0,3.75),(0.1,3.6),(0.2,3.47),(0.3,3.36),
+(0.4,3.25),(0.5,3.16),(0.6,3.1),(0.7,3.06),
+(0.8,3.02),(0.9,3.01),(1,3))
+industrial capital output ratio multiplier table(
+(1,1),(1.2,1.05),(1.4,1.12),(1.6,1.25),
+(1.8,1.35),(2,1.5))
+jobs per hectare table(
+(2,2),(6,0.5),(10,0.4),(14,0.3),
+(18,0.27),(22,0.24),(26,0.2),(30,0.2))
+jobs per industrial capital unit table(
+(50,0.37),(200,0.18),(350,0.12),(500,0.09),
+(650,0.07),(800,0.06))
+jobs per service capital unit table(
+(50,1.1),(200,0.6),(350,0.35),(500,0.2),
+(650,0.15),(800,0.15))
+land fertility degredation rate table(
+(0,0),(10,0.1),(20,0.3),(30,0.5))
+land fertility regeneration time table(
+(0,20),(0.02,13),(0.04,8),(0.06,4),
+(0.08,2),(0.1,2))
+land life multiplier from land yield table 1(
+(0,1.2),(1,1),(2,0.63),(3,0.36),
+(4,0.16),(5,0.055),(6,0.04),(7,0.025),
+(8,0.015),(9,0.01))
+land life multiplier from land yield table 2(
+(0,1.2),(1,1),(2,0.63),(3,0.36),
+(4,0.29),(5,0.26),(6,0.24),(7,0.22),
+(8,0.21),(9,0.2))
+land yield multipler from air pollution table 1(
+(0,1),(10,1),(20,0.7),(30,0.4))
+land yield multipler from air pollution table 2(
+(0,1),(10,1),(20,0.98),(30,0.95))
+land yield multiplier from capital table(
+(0,1),(40,3),(80,4.5),(120,5),
+(160,5.3),(200,5.6),(240,5.9),(280,6.1),
+(320,6.35),(360,6.6),(400,6.9),(440,7.2),
+(480,7.4),(520,7.6),(560,7.8),(600,8),
+(640,8.2),(680,8.4),(720,8.6),(760,8.8),
+(800,9),(840,9.2),(880,9.4),(920,9.6),
+(960,9.8),(1000,10))
+land yield technology change rate multiplier table(
+(0,0),(1,0))
+Life Expectancy Index LOOKUP(
+(25,0),(35,0.16),(45,0.33),(55,0.5),
+(65,0.67),(75,0.84),(85,1))
+lifetime multiplier from food table(
+(0,0),(1,1),(2,1.43),(3,1.5),
+(4,1.5),(5,1.5))
+lifetime multiplier from health services 1 table(
+(0,1),(20,1.1),(40,1.4),(60,1.6),
+(80,1.7),(100,1.8))
+lifetime multiplier from health services 2 table(
+(0,1),(20,1.5),(40,1.9),(60,2),
+(80,2),(100,2))
+lifetime multiplier from persistent pollution table(
+(0,1),(10,0.99),(20,0.97),(30,0.95),
+(40,0.9),(50,0.85),(60,0.75),(70,0.65),
+(80,0.55),(90,0.4),(100,0.2))
+marginal land yield multiplier from capital table(
+(0,0.075),(40,0.03),(80,0.015),(120,0.011),
+(160,0.009),(200,0.008),(240,0.007),(280,0.006),
+(320,0.005),(360,0.005),(400,0.005),(440,0.005),
+(480,0.005),(520,0.005),(560,0.005),(600,0.005))
+mortality 0 to 14 table(
+(20,0.0567),(30,0.0366),(40,0.0243),(50,0.0155),
+(60,0.0082),(70,0.0023),(80,0.001))
+mortality 15 to 44 table(
+(20,0.0266),(30,0.0171),(40,0.011),(50,0.0065),
+(60,0.004),(70,0.0016),(80,0.0008))
+mortality 45 to 64 table(
+(20,0.0562),(30,0.0373),(40,0.0252),(50,0.0171),
+(60,0.0118),(70,0.0083),(80,0.006))
+mortality 65 plus table(
+(20,0.13),(30,0.11),(40,0.09),(50,0.07),
+(60,0.06),(70,0.05),(80,0.04))
+per capita resource use mult table(
+(0,0),(200,0.85),(400,2.6),(600,3.4),
+(800,3.8),(1000,4.1),(1200,4.4),(1400,4.7),
+(1600,5))
+persistent pollution technology change mult table(
+(-1,0),(0,0))
+resource technology change mult table(
+(-1,0),(0,0))
+social family size normal table(
+(0,1.25),(200,0.94),(400,0.715),(600,0.59),
+(800,0.5))
+urban and industrial land required per capita table(
+(0,0.005),(200,0.008),(400,0.015),(600,0.025),
+(800,0.04),(1000,0.055),(1200,0.07),(1400,0.08),
+(1600,0.09))
