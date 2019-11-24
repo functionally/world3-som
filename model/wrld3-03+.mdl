@@ -1368,7 +1368,7 @@ INITIAL TIME  = 1900
 	|
 
 SAVEPER  = 
-        TIME STEP 
+        1.0
 	~	year
 	~	  The frequency with which results are saved.
 	|
@@ -3989,11 +3989,14 @@ industrial equilibrium time,1900,2100,5
 :SCALE
 :VAR land life multiplier from land yield
 :L<%^E!@
-9:experiment
+1:sensitivity-01.vdf
+9:sensitivity-01
 22:Ghectare,Ghectares
 22:hectare,hectares
 22:Pollution unit,Pollution units
 22:Resource unit,Resource units
+18:sensitivity-01.vsc
+20:sensitivity-01.lst
 15:0,0,0,0,0,0
 19:100,0
 27:0,
