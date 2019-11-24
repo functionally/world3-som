@@ -3656,14 +3656,6 @@ zero population growth time,1900,2100,5
 industrial output per capita desired,100,2000,10
 12,13,0,1112,828,80,20,3,124,0,0,0,0,0,0
 industrial equilibrium time,1900,2100,5
-12,14,0,847,475,88,11,0,4,0,0,-1,0,0,0
-Click on the SyntheSim Icon
-30,15,wrld3-03+0000.bmp,948,477,8,8,8,0,0,0,-1,0,0,0
-12,16,0,1120,476,115,11,0,4,0,0,-1,0,0,0
-and move sliders to see what changes
-12,17,0,1366,819,30,30,6,135,0,4,-1,0,1,0,-1--1--1,192-192-192,|12||0-0-0
-Home
-30,18,wrld3-03+0001.bmp,981,477,15,14,8,3,0,0,-1,0,0,0
 ///---\\\
 :GRAPH STATE_OF_WORLD
 :TITLE State of the World
