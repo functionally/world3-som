@@ -1,8 +1,0 @@
-Variable	Default	Minimum	Maximum
-initial nonrenewable resources	1e+12	1e+12	4e+12
-land life policy implementation time	4000	1900	2100
-technology development delay	20	1	40
-fertility control effectiveness time	4000	1900	2100
-zero population growth time	4000	1900	2100
-industrial output per capita desired	400	100	2000
-industrial equilibrium time	4000	1900	2100
