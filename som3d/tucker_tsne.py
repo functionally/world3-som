@@ -115,7 +115,7 @@ def write_joined(zOriginal, zEmbedded, filename, sep="\t", compression=None):
 
 def analyze(basename, runColumn, timeColumn, outputColumns, timeCounts, metricCounts, perplexities, runCount=None, n_components=3, verbose=1):
 
-    z = read_sampled(basename + ".tsv.xz", runColumn, timeColumn, runCount)
+    z = read_sampled(basename + ".tsv.gz", runColumn, timeColumn, runCount)
 
     for t in timeCounts:
         for m in metricCounts:
@@ -126,5 +126,5 @@ def analyze(basename, runColumn, timeColumn, outputColumns, timeCounts, metricCo
                 print("Metric dimension:", m)
                 print("Perplexity:", p)
                 ze = tucker_tnse(z, outputColumns, t, m, perplexity=p, n_components=n_components, verbose=verbose)
-                write_joined(z, ze, basename + "-t=" + str(t) + "-m=" + str(m) + "-p=" + str(p) + ".tsv.xz", compression="xz")
+                write_joined(z, ze, basename + "-t=" + str(t) + "-m=" + str(m) + "-p=" + str(p) + ".tsv.gz", compression="gzip")
                 print()
