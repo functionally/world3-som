@@ -1,4 +1,4 @@
-30000,L,1234,,0
+100000,L,1234,,0
 initial nonrenewable resources=RANDOM_UNIFORM(1e12,4e12)
 land life policy implementation time=RANDOM_UNIFORM(1900,2100)
 technology development delay=RANDOM_UNIFORM(1,40)
